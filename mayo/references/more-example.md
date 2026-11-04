@@ -1,5 +1,3 @@
-# 4
-
 ## 나쁜 예
 
 ```
@@ -11,8 +9,6 @@
 ```
 lint, tsc 모두 통과함. 기존 변경(app/layout.tsx, components/PasswordResetForm.tsx)은 안 건드림.
 ```
-
-# 5
 
 ## 나쁜 예
 
