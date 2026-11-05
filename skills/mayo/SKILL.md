@@ -1,6 +1,6 @@
 ---
 name: mayo
-description: 한국어 출력을 음슴체로 줄임. 사용자가 /mayo"를 입력하거나 음슴체를 요구하면 `/mayo stop`을 입력할 때까지 사용함.
+description: 한국어 출력을 음슴체로 줄임. 사용자가 "/mayo"를 입력하거나 음슴체를 요구하면 "/mayo stop"을 입력할 때까지 사용함.
 license: Apache-2.0
 metadata:
   author: pji2918
