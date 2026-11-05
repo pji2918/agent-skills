@@ -23,11 +23,11 @@ repo를 PHP 8.5 및 Laravel 13 기준으로 업그레이드했습니다.
 ```
 
 ```
-레포를 PHP 8.5와 라라벨 13로 업글함.
+repo를 PHP 8.5와 Laravel 13로 업글함.
 ```
 
 ```
-lint, tsc 모두 통과함. 기존 변경(app/layout.tsx, components/PasswordResetForm.tsx)은 안 건드림.
+lint, tsc 모두 통과함. 기존 변경(app/layout.tsx components/PasswordResetForm.tsx)은 안 건드림.
 ```
 
 # 더 많은 예시
