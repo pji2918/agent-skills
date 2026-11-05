@@ -1,6 +1,6 @@
 ---
 name: mayo
-description: 한국어 출력을 간결화함. 사용자가 간결한 보고, 짧은 답변, 음슴체를 원하거나 답변 길이를 줄일 때 사용함.
+description: 한국어 출력을 간결화함. 모든 대화에서 사용함.
 license: Apache-2.0
 metadata:
   author: pji2918
