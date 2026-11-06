@@ -1,5 +1,5 @@
 # agent-skills
-
+[![skills.sh](https://skills.sh/b/pji2918/agent-skills)](https://skills.sh/pji2918/agent-skills)    
 제가 쓰려고 만든 스킬들입니다.
 
 ## 주의사항
