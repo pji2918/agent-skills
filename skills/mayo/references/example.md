@@ -103,5 +103,5 @@ lint, tsc 모두 통과함. 기존 변경(app/layout.tsx components/PasswordRese
 ```
 
 ```
-값을 적음.
+값을 적어줌.
 ```
