@@ -11,8 +11,19 @@
 ## 포함된 스킬
 
 - [`mayo`](./skills/mayo/): 한국어 출력을 간결하게(음슴체로) 만듭니다.
+- [`code-editing`](./skills/code-editing/): 모든 코드 편집을 `code-editor` 서브에이전트에 위임하도록 합니다.
+- [`terminal-exec`](./skills/terminal-exec/): 모든 터미널 명령 실행을 `terminal-exec` 서브에이전트에 위임하도록 합니다.
+
+## 포함된 에이전트
+
+- [`code-editor`](./agents/code-editor.md): 오케스트레이터가 넘긴 로직대로 코드를 작성/수정합니다. 명령은 실행하지 않습니다. (haiku)
+- [`terminal-exec`](./agents/terminal-exec.md): 오케스트레이터가 넘긴 명령을 실행하고 결과를 보고합니다. 위험한 명령은 실행하지 않습니다. (haiku)
+
+`code-editing`, `terminal-exec` 스킬은 같은 이름의 서브에이전트와 함께 써야 동작합니다.
 
 ## 설치 방법
+
+### 스킬 설치
 
 Node.js 및 npm이 설치되어 있다고 가정합니다.  
 설치되어 있지 않다면 [여기](https://nodejs.org)에서 설치합니다.
@@ -25,3 +36,8 @@ npx skills add https://github.com/pji2918/agent-skills --skill <스킬 이름>
 ```
 
 지시를 따릅니다. 끝!
+
+### 서브에이전트 설치
+
+`npx skills add`는 스킬만 설치합니다.  
+서브에이전트는 [`agents/`](./agents/)의 `.md` 파일을 `~/.claude/agents/`(또는 프로젝트의 `.claude/agents/`)에 직접 복사합니다.
