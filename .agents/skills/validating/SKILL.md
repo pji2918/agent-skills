@@ -1,6 +1,6 @@
 ---
 name: validating
-description: 파일을 작성하거나 수정하거나 리팩터링한 직후 반드시 사용하는 검증 규정. `pnpx markdownlint-cli2`로 markdown 파일을 검사하고, 이후 `pnpx prettier . --write`로 서식을 통일함. 사용자가 명시적으로 요청하지 않아도 파일 작업(특히 `.md`, SKILL.md, README, 문서)을 마치면 쓰고, 작업 마무리·보고 전에 쓰는 것을 기본으로 함.
+description: 파일을 작성하거나 수정하거나 리팩터링한 직후 반드시 사용하는 검증 규정. `pnpx prettier . --write`로 서식을 통일함. 사용자가 명시적으로 요청하지 않아도 파일 작업(특히 `.md`, SKILL.md, README, 문서)을 마치면 쓰고, 작업 마무리·보고 전에 쓰는 것을 기본으로 함.
 ---
 
 # 작성/수정 후 검증
