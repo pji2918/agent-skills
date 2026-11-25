@@ -1,5 +1,6 @@
 # agent-skills
-[![skills.sh](https://skills.sh/b/pji2918/agent-skills)](https://skills.sh/pji2918/agent-skills)    
+
+[![skills.sh](https://skills.sh/b/pji2918/agent-skills)](https://skills.sh/pji2918/agent-skills)  
 제가 쓰려고 만든 스킬들입니다.
 
 ## 주의사항
@@ -13,6 +14,7 @@
 - [`mayo`](./skills/mayo/): 한국어 출력을 간결하게(음슴체로) 만듭니다.
 - [`code-editing`](./skills/code-editing/): 모든 코드 편집을 `code-editor` 서브에이전트에 위임하도록 합니다.
 - [`terminal-exec`](./skills/terminal-exec/): 모든 터미널 명령 실행을 `terminal-exec` 서브에이전트에 위임하도록 합니다.
+- [`learn`](./skills/learn/): 결과물을 대신 만들지 않고, 사용자가 직접 만들도록 질문과 힌트로 돕습니다.
 
 ## 포함된 에이전트
 
