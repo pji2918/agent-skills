@@ -17,8 +17,9 @@ public class TestClass {
 /**
  * a와 b를 더합니다.
  *
- * @param a 첫번째 값.
- * @param b 두번째 값.
+ * @param a 첫번째 값
+ * @param b 두번째 값
+ * @return a와 b의 합
  * @throws IllegalArgumentException a 혹은 b가 0 미만일 때 발생합니다.
  */
 public int add(int a, int b) {

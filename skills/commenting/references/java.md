@@ -12,7 +12,8 @@ JavaDoc 형식으로 작성한다.
 
 JavaDoc 형식으로 작성한다.
 `@param`의 문장은 단어의 원형으로 끝낸다.
-`@throws`의 문장은 `-합니다.`로 끝낸다.
+`@return`의 문장은 단어의 원형으로 끝낸다.
+`@throws`의 문장은 하십시오체를 사용한다.
 
 [examples/java.md](./examples/java.md#메서드)를 참고한다.
 
