@@ -14,13 +14,13 @@
 
 - [`mayo`](./skills/mayo/): 한국어 출력을 간결하게(음슴체로) 만듭니다.
 - [`code-editing`](./skills/code-editing/): 모든 코드 편집을 [`code-editor`](./agents/code-editor.md) 서브에이전트에 위임하도록 합니다.
-- [`terminal-exec`](./skills/terminal-exec/): 모든 터미널 명령 실행을 [`terminal-exec`](./agents/terminal-exec.md) 서브에이전트에 위임하도록 합니다.
+- [`terminal-exec`](./skills/terminal-exec/): 모든 터미널 명령 실행을 [`terminal-executor`](./agents/terminal-executor.md) 서브에이전트에 위임하도록 합니다.
 - [`learn`](./skills/learn/): 결과물을 대신 만들지 않고, 사용자가 직접 만들도록 질문과 힌트로 돕습니다.
 
 ## 포함된 에이전트
 
 - [`code-editor`](./agents/code-editor.md): 오케스트레이터가 넘긴 로직대로 코드를 작성/수정합니다. 명령은 실행하지 않습니다. (haiku)
-- [`terminal-exec`](./agents/terminal-exec.md): 오케스트레이터가 넘긴 명령을 실행하고 결과를 보고합니다. 위험한 명령은 실행하지 않습니다. (haiku)
+- [`terminal-executor`](./agents/terminal-executor.md): 오케스트레이터가 넘긴 명령을 실행하고 결과를 보고합니다. 위험한 명령은 실행하지 않습니다. (haiku)
 
 `code-editing`, `terminal-exec` 스킬은 같은 이름의 서브에이전트와 함께 써야 동작합니다.
 

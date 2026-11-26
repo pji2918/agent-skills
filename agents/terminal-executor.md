@@ -1,5 +1,5 @@
 ---
-name: terminal-exec
+name: terminal-executor
 description: Subagent that runs terminal commands handed down by the orchestrator (build, test, lint, git read operations, etc.) and reports results. Dangerous commands are not executed; they are reported back instead.
 tools: Bash, Read
 model: haiku
